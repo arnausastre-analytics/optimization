@@ -1,4 +1,4 @@
-# 📦 EOQ Avanzado con Descuentos y Optimización Continua
+# EOQ Avanzado con Descuentos y Optimización Continua
 
 Este proyecto resuelve el problema clásico de gestión de inventario utilizando el modelo **EOQ (Economic Order Quantity)**, extendido con:
 
@@ -6,40 +6,32 @@ Este proyecto resuelve el problema clásico de gestión de inventario utilizando
 - Optimización continua con `scipy.optimize`
 - Comparativa de escenarios para tomar decisiones eficientes en retail
 
----
-
-## 🎯 Objetivo
+## Objetivo
 
 Determinar de forma óptima:
 
-- 📦 Cuántas unidades pedir (`Q`)
-- 🔁 Cuántas veces al año hacerlo
-- 💸 Cómo minimizar el **coste total anual** considerando:
+- Cuántas unidades pedir (`Q`)
+- Cuántas veces al año hacerlo
+- Cómo minimizar el **coste total anual** considerando:
   - Coste de pedidos
   - Coste de mantenimiento de stock
   - Coste de adquisición (precio por unidad con descuentos)
 
----
+## Técnicas aplicadas
 
-## 🧠 Técnicas aplicadas
+- Modelo EOQ clásico
+- EOQ con tramos de descuentos por cantidad
+- Optimización continua del coste total con `scipy.optimize`
+- Análisis profesional tabulado
+- Visualización y análisis de sensibilidad (opcional)
 
-- ✅ Modelo EOQ clásico
-- ✅ EOQ con tramos de descuentos por cantidad
-- ✅ Optimización continua del coste total con `scipy.optimize`
-- 🧪 Análisis profesional tabulado
-- 🔜 Visualización y análisis de sensibilidad (opcional)
-
----
-
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Python 3.x
 - Google Colab (recomendado)
 - `pandas`, `numpy`, `scipy`, `tabulate`
 
----
-
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```bash
 .
