@@ -1,26 +1,26 @@
-Optimización de Producción Multiperíodo con Costes de Inventario
+#Optimización de Producción Multiperíodo con Costes de Inventario
 
 Este proyecto resuelve un problema de planificación de producción en entornos industriales utilizando programación lineal entera mixta (MILP). El objetivo es determinar cuántas unidades producir de cada producto en cada periodo, cumpliendo la demanda, respetando la capacidad de producción y minimizando el coste total (producción + inventario).
 
-Objetivo
+##Objetivo
 - Cumplir la demanda prevista para varios periodos.
 - Minimizar el coste total de producción e inventario.
 - Respetar la capacidad máxima de producción en cada periodo.
 - Planificar el inventario final de cada periodo.
 
-Técnicas aplicadas
+##Técnicas aplicadas
 - Modelado matemático en Python con PuLP.
 - Programación lineal entera mixta (MILP).
 - Simulación de demanda y parámetros si no se aportan datos.
 - Generación automática de planes de producción e inventario.
 
-Tecnologías utilizadas
+##Tecnologías utilizadas
 - Python 3.x
 - pandas, numpy
 - PuLP
 - tabulate (para reportes tabulares)
 
-Estructura del proyecto
+##Estructura del proyecto
 .
 ├── data/
 │   ├── products.csv          # Datos de productos (costes, inventario inicial)
